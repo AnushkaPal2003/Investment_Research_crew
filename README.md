@@ -76,3 +76,6 @@ pytest tests/ -v
 ## CI/CD
 
 CI/CD pipeline configured with Docker Hub deployment.
+
+## Streamlit
+
