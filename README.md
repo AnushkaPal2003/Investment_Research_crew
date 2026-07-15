@@ -73,3 +73,6 @@ Frontend: http://localhost:8501
 ```bash
 pytest tests/ -v
 ```
+## CI/CD
+
+CI/CD pipeline configured with Docker Hub deployment.
