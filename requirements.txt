@@ -1,0 +1,12 @@
+crewai
+crewai-tools
+tavily-python
+fastapi
+uvicorn
+streamlit
+requests
+pytest
+httpx
+python-dotenv
+litellm
+groq
