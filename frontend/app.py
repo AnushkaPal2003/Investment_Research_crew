@@ -16,7 +16,7 @@ if st.button("Run research", type="primary") and company:
         response = requests.post(
     f"{API_URL}/research",
     json={"company": company},
-    timeout=300,
+    timeout=600,
 )
 
     
