@@ -8,7 +8,6 @@ from tools.search_tool import web_search
 # Debug (remove later)
 # ----------------------------
 print("Groq key exists:", bool(os.getenv("GROQ_API_KEY")))
-print("Groq key prefix:", os.getenv("GROQ_API_KEY", "")[:8])
 
 # ----------------------------
 # LLM
