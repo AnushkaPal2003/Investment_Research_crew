@@ -12,15 +12,9 @@ print("Groq key exists:", bool(os.getenv("GROQ_API_KEY")))
 # ----------------------------
 # LLM
 # ----------------------------
-try:
-    llm = LLM(
-        model="groq/llama-3.3-70b-versatile",
-        api_key=os.getenv("GROQ_API_KEY"),
-        temperature=0,
-    )
-except Exception:
-    llm = LLM(
-        model="groq/llama-3.1-8b-instant",
+MODEL = os.getenv("GROQ_MODEL", "groq/openai/gpt-oss-120b")
+
+llm = LLM(model=MODEL,
         api_key=os.getenv("GROQ_API_KEY"),
         temperature=0,
     )
