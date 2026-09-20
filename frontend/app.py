@@ -3,7 +3,7 @@ import os
 import requests
 import streamlit as st
 
-API_URL = os.environ.get("API_URL", "http://localhost:8000")
+API_URL = os.environ.get("API_URL", "https://investment-research-crew-api.onrender.com")
 
 st.set_page_config(page_title="Investment Research Crew", page_icon="📊")
 st.title("📊 Investment Research Crew")
