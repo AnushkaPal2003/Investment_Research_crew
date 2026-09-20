@@ -17,6 +17,7 @@ MODEL = os.getenv("GROQ_MODEL", "groq/openai/gpt-oss-120b")
 llm = LLM(model=MODEL,
         api_key=os.getenv("GROQ_API_KEY"),
         temperature=0,
+        max_tokens=2000
     )
 
 
