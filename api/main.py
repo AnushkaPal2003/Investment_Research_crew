@@ -19,6 +19,9 @@ class ResearchResponse(BaseModel):
     company: str
     report: str
 
+@app.get("/")
+def root():
+    return {"status": "ok"}
 
 @app.get("/health")
 def health():
